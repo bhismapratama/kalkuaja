@@ -40,7 +40,6 @@ export default {
         <button @click="kurang()">kurang</button>
         <button @click="kali()">kali</button>
         <button @click="bagi()">bagi</button>
-        <br/>
       </form>
       <p>Hasil perhitungan = {{ hasil }}</p>
     </header>
