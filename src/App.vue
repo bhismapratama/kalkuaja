@@ -28,8 +28,9 @@ export default {
   <main>
     <header>
       <h1>kalku vue</h1>
+    </header>
       <form @submit.prevent="">
-        <label for="nomorBang">nomor awal: </label>
+        <label for="nom">nomor awal: </label>
         <input v-model="nomorBang" type="number" />
         <br />
         <label>lanjut: </label>
@@ -42,6 +43,5 @@ export default {
         <button @click="bagi()">bagi</button>
       </form>
       <p>Hasil perhitungan = {{ hasil }}</p>
-    </header>
   </main>
 </template>
